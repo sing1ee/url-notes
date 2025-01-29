@@ -39,7 +39,12 @@ function parseMarkdownRecords(text) {
     // 添加最后一条记录
     if (currentRecord) records.push(currentRecord)
     
-    return records
+    // 根据时间戳进行逆序排序
+    return records.sort((a, b) => {
+        const timeA = new Date(a.time).getTime()
+        const timeB = new Date(b.time).getTime()
+        return timeB - timeA  // 降序排列
+    })
 }
 
 function renderRecordsToCards(records) {

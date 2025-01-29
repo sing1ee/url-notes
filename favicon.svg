@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 书本主体 -->
+  <path d="M6 4C6 2.89543 6.89543 2 8 2H26C27.1046 2 28 2.89543 28 4V28C28 29.1046 27.1046 30 26 30H8C6.89543 30 6 29.1046 6 28V4Z" fill="#4A5568"/>
+  
+  <!-- 书页 -->
+  <path d="M8 4H24V26H8V4Z" fill="#F7FAFC"/>
+  
+  <!-- 笔记线条 -->
+  <path d="M11 10H21" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <path d="M11 15H21" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+  <path d="M11 20H17" stroke="#4A5568" stroke-width="2" stroke-linecap="round"/>
+</svg> 

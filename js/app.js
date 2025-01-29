@@ -6,9 +6,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     renderArchiveList(archives)
     
-    // 默认显示最新的文章
-    if (archives.length > 0) {
-        const latestArchive = archives[archives.length - 1]
-        await loadAndDisplayMarkdown(latestArchive)
-    }
 }) 

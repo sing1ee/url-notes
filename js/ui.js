@@ -9,7 +9,11 @@ function renderArchiveList(archives) {
         const [year, month] = archive.replace('.md', '').split('-')
         item.textContent = `${year}年${month}月`
         
-        item.addEventListener('click', () => loadAndDisplayMarkdown(archive))
+        // 修改为跳转到新页面
+        item.addEventListener('click', () => {
+            const monthParam = archive.replace('.md', '')
+            window.location.href = `/detail.html?m=${monthParam}`
+        })
         archiveList.appendChild(item)
     })
 } 

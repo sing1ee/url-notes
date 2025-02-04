@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monthly Reading Notes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/styles.css">
     <style>
         .cards-grid {
@@ -75,15 +76,25 @@
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1 id="page-title">Reading Notes</h1>
-            <a href="index.html" class="back-link">返回首页</a>
+<body class="bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header class="py-8 border-b border-gray-200">
+            <div class="flex items-center justify-between">
+                <h1 id="page-title" class="text-3xl font-bold text-gray-900">Reading Notes</h1>
+                <a href="index.html" class="inline-flex items-center px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                    返回首页
+                </a>
+            </div>
         </header>
         
-        <main>
+        <main class="py-8">
             <div id="content" class="markdown-content"></div>
+            <div class="cards-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
         </main>
     </div>
     

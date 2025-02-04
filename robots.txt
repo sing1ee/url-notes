@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /detail.html
+
+Sitemap: https://perplexityai.xyz/sitemap.xml
+
+# 禁止访问的目录
+Disallow: /private/
+Disallow: /temp/
+Disallow: /drafts/ 

@@ -247,4 +247,59 @@ a:hover {
 
 .social-link:hover {
     color: var(--primary-color);
+}
+
+.archive-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.archive-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.archive-year {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.archive-month {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    margin: 8px 0;
+    color: #666;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.archive-month:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+
+.month-text {
+    font-size: 16px;
+}
+
+.archive-month i {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.archive-month:hover i {
+    opacity: 1;
 } 

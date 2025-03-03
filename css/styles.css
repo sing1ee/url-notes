@@ -302,4 +302,70 @@ a:hover {
 
 .archive-month:hover i {
     opacity: 1;
+}
+
+/* Works Showcase Section */
+.works-showcase {
+    margin: 2rem 0 4rem;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    border-radius: 2px;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.work-item {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 2rem;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.work-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #6366f1;
+}
+
+.work-title {
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+    color: #1a1a1a;
+}
+
+.work-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0 0;
 } 

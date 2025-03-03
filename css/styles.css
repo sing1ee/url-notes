@@ -358,6 +358,12 @@ a:hover {
     color: #6366f1;
 }
 
+.favicon-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+}
+
 .work-title {
     font-size: 1.4rem;
     margin: 0.5rem 0;

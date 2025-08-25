@@ -18,6 +18,7 @@ This repository is a Markdown-based URL sharing platform where users can share i
 
 ## Usage
 
+0. *Star this repo*
 1. Click on the "Issues" tab in the repository
 2. Click the "New issue" button
 3. Select the "URL notes" template
